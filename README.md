@@ -11,3 +11,6 @@ titre lkbir :
 * hi
 * hello
 * how are you
+
+# startup 
+destroyer
