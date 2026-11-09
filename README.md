@@ -14,3 +14,5 @@ titre lkbir :
 
 # startup 
 destroyer
+
+kokokoriya halland looobiya
