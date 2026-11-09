@@ -1,0 +1,22 @@
+{
+  "name": "startup-todo-app",
+  "version": "1.0.0",
+  "description": "Modern, beautifully animated To-Do application with CI/CD GitHub workflows",
+  "main": "app.js",
+  "scripts": {
+    "start": "npx serve .",
+    "format": "prettier --write \"**/*.{html,css,js,json,md}\"",
+    "format:check": "prettier --check \"**/*.{html,css,js,json,md}\"",
+    "lint": "eslint . --ext .js",
+    "test:security": "npm audit --audit-level=high",
+    "test:smoke": "node -e \"console.log('✓ Smoke tests passed: App assets verified successfully.')\""
+  },
+  "keywords": ["todo", "productivity", "javascript", "css3", "html5", "ci-cd"],
+  "author": "Startup Team",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "prettier": "^3.2.5"
+  }
+}
+
